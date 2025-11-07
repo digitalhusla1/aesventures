@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--blue-600);
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 2px solid var(--text);
+  color: var(--text);
+}
+
+.btn-ghost:hover {
+  background: var(--text);
+  color: var(--bg);
+}

@@ -1,0 +1,26 @@
+.theme-toggle {
+  display: none;
+}
+
+.theme-toggle-label {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.theme-toggle-label svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2px;
+}
+
+.theme-toggle-label .moon {
+  display: none;
+}
+
+.theme-toggle:checked ~ * .theme-toggle-label .sun {
+  display: none;
+}
+
+.theme-toggle:checked ~ * .theme-toggle-label .moon {
+  display: block;
+}
