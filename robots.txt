@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /assets/templates/
+
+# Sitemaps
+Sitemap: https://digitalhusla1.github.io/aesventures/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

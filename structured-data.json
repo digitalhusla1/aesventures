@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Alpha Eco Star Ventures",
+  "alternateName": "Alpha-Ecostar Ventures",
+  "description": "Leading provider of import/export services, logistics solutions, digital marketing, and smart farming consulting in West Africa.",
+  "url": "https://alphaecostarventures.com",
+  "logo": "https://alphaecostarventures.com/img/logo01.png",
+  "email": "alphaecostar@gmail.com",
+  "telephone": "+233 544 61 58 01",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Lake road",
+    "addressLocality": "Kumasi",
+    "postalCode": "00233",
+    "addressCountry": "GH"
+  },
+  "sameAs": [
+    "https://www.facebook.com/alphaecostarventures",
+    "https://www.linkedin.com/company/alpha-ecostar-ventures",
+    "https://twitter.com/alphaecostar"
+  ],
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "6.6885",
+      "longitude": "-1.6244"
+    },
+    "geoRadius": "500000"
+  },
+  "serviceArea": ["Ghana", "West Africa", "International"],
+  "mainEntityOfPage": {
+    "@type": "WebSite",
+    "name": "Alpha Eco Star Ventures - Smart Business Solutions",
+    "url": "https://alphaecostarventures.com"
+  }
+}
